@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Tasarım Programı Kurulum ve Satış Sözleşmesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main" style="border: 1px solid black;">
+        <h1>ABC Tasarım Programı Kurulum ve Satış Sözleşmesi</h1>
+        <div class="Onay" style="border: 2px solid black;">
+            <input type="checkbox" name="onay" id="onay" value="onay">
+            <label for="onay">Aşağıdaki Bilgilerin doğuluğunu kabul ediyorm ve sözleşmesini onaylıyorum.</label>
+            <br>
+            <input type="submit" value="Formu Kaydet">
+            <input type="reset" value="Formu Temizle">
+        </div>
+        <div class="kişisel" style="border: 1px solid black;">
+            <label for="sifre">Form Güvenlik ID</label>
+            <input type="password" name="Girilen Parola" id="sifre">
+            <br>
+            <label for="name">Ad</label>
+            <input type="text" name="isim" id="name" >
+            <br>
+            <label for="lname">Soyad</label>
+            <input type="text" name="Soyad" id="lname" >
+            <br>
+            <label for="age">Yaş</label>
+            <input type="text" name="Yaş" id="age" >
+            <br>
+            <label for="email">Mail Adresi</label>
+            <input type="email" name="Girilen_Email" id="email">
+            <br>
+            <label for="foto">Fotoğraf Ekle</label>
+            <input type="submit" value="Dosya Seç" id="foto">
+            <span>Dosya Seçilmedi</span>
+
+        </div>
+        <div class="diğer" style="border: 1px solid black;">
+            <p><strong>Buradaki alanlar Mesleki Deneyimi Kapsar</strong></p>
+            <label for="tarih">Sektöre Giriş Tarihi</label>
+            <input type="date" name="Seçilen_Tarih" id="tarih">
+            <br>
+            <span>Sektör Deneyimi</span>
+            <label for="exper">1-5 yıl</label>
+            <input type="radio" name="tecrübe" id="exper" value="1-5 yıl" >
+            <label for="exper">6-10 yıl</label>
+            <input type="radio" name="tecrübe" id="exper" value="6-10 yıl" >
+            <label for="exper">11-15 yıl</label>
+            <input type="radio" name="tecrübe" id="exper" value="11-15 yıl" >
+            <label for="exper">15-üzeri yıl</label>
+            <input type="radio" name="tecrübe" id="exper" value="15 üzeri" >
+            <br>
+            <label for="dil">Programlama Dilleri</label>
+            <select name="Seçilen Dil" id="dil" size="5" multiple>
+                <option value="C#">C#</option>
+                <option value="PHP">PHP</option>
+                <option value="Java">Java</option>
+                <option value="Java">Java</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+        </div>
+        <div class="kopya" style="border: 1px solid black;">
+            <label for="kopya">Sözleşme Kopyası</label>
+            <br>
+            <textarea  name="Sözleşme Kopyası" id="Kopya">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aut quisquam adipisci ratione consequuntur reiciendis amet quidem libero doloribus soluta quia minus dignissimos porro, nihil quod vitae officiis eveniet incidunt?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, debitis iste. Vero maiores, ipsa voluptatem sapiente nemo hic saepe modi numquam itaque, accusamus laboriosam cumque inventore dicta, quas quasi rem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime non pariatur cupiditate. Nisi, nam. Quibusdam in id numquam! Enim natus repellendus alias harum unde voluptatem laboriosam, facilis eos totam ad.
+            </textarea>
+        </div>
+        <div class="mail" style="border: 1px solid black;">
+            <label for="istiyorum">Mail Listesine Katılmak <strong>İstiyorum</strong></label>
+            <input type="checkbox" name="istiyorum" id="karar" value="istiyorum">
+            <br>
+            <label for="istemiyorum">Mail Listesine Katılmak <strong><u>İstemiyorum</u></strong></label>
+            <input type="checkbox" name="istemiyorum" id="karar" value="istemiyorum">
+        </div>
+
+    </div>
+</body>
+</html>
